@@ -99,7 +99,10 @@ function LSAB_renderSheet(headers, rows, sheetName, settings) {
     rows.forEach(function (row) {
         sheetData.push(headers.map(function (h) {
             var value = row[h.key];
-            return { v: value === undefined || value === null ? '' : value };
+            return {
+                v: value === undefined || value === null ? '' : value,
+                ct: { fa: '@', t: 's' }
+            };
         }));
     });
 
