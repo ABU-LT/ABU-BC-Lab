@@ -1,0 +1,33 @@
+{
+  "id": "fa7558ec-8518-4162-80de-c7812520d513",
+  "name": "ABU-LAB Sticky Notes",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 70020,
+      "to": 70029
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "target": "OnPrem",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
